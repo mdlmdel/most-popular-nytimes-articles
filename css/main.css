@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding-top: 20px;
+  margin-bottom: 0px;
+  margin: 0 auto;
+}
+
+h3 {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+#search-input {
+  width: 310px;
+}
+
+button {
+  background: #6288a5;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #4e6c84;
+}
+
+.viewed {
+  list-style: none;
+}
+
+.shared {
+  list-style: none;
+}
+
+.emailed {
+  list-style: none;
+}
+
+#results-viewed {
+  list-style: none;
+  padding-left: 0;
+}
+
+#results {
+  list-style: none;
+  padding-left: 0;
+}
+
+#results-emailed {
+  list-style: none;
+  padding-left: 0;
+}
+
+.article_url {
+  color: blue;
+}
+
+.col-12 {
+  text-align: center;
+}

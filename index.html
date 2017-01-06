@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New York Times Most Popular App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/float-grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- link to jquery -->
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <!-- link to your app.js -->
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body class="container">
+
+    <!-- TWELVE COLUMNS SEARCH BAR STARTS --> 
+    <div class="row">
+      <div class="col-12">
+          <h1>Most Popular <em>New York Times</em> Articles</h1>
+          <p>Search for the most popular articles in the last 7 days</p>
+          <form id="search-form">
+            <button type="submit">Search</button>
+          </form>
+      </div>
+    </div>
+    <!-- TWELVE COLUMNS SEARCH BAR ENDS --> 
+
+    <!-- FIRST COLUMN STARTS --> 
+    <div class="col-4">
+      <div class="viewed">
+        <ul id="results-viewed">
+        <p>Most <strong>viewed</strong> in the last 7 days</p>
+          <button type="text" id="summary-viewed">&nbsp;&nbsp;</button>
+        </ul>
+      </div>
+    </div>
+    <!-- FIRST COLUMN STARTS --> 
+
+    <!-- SECOND COLUMN STARTS --> 
+    <div class="col-4">
+      <div class="shared">
+        <ul id="results">
+        <p>Most <strong>shared</strong> in the last 7 days</p>
+          <button type="text" id="summary-shared">&nbsp;&nbsp;</button>
+        </ul>
+      </div>
+    </div>
+    <!-- SECOND COLUMN STARTS --> 
+
+    <!-- THIRD COLUMN STARTS --> 
+    <div class="col-4">
+        <div class="emailed">
+          <p>Most <strong>emailed</strong> in the last 7 days</p>
+          <ul id="results-emailed">
+            <button type="text" id="summary-emailed">&nbsp;&nbsp;</button>
+          </ul>
+        </div>
+    </div>  
+  <!-- THIRD COLUMN ENDS -->
+
+  </body>
+</html>
