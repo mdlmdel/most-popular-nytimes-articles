@@ -1,0 +1,9 @@
+# Most Popular New York Times Articles
+
+This is a New York Times search app I designed and built using the New York Times API, AJAX, jQuery, JavaScript, HTML, and CSS. The app allows users to search for the New York Times articles most viewed, shared, and emailed within the last 7 days and displays the top 5 results for each category. 
+
+This is a great way for marketers to get a sense of the pulse of what is most important to readers across channels now and how readers are interacting with that content.
+
+View and use the app [here](https://mdlmdel.github.io/most-popular-nytimes-articles/). 
+
+-MdL
