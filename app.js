@@ -13,7 +13,7 @@ $(document).ready(function () {
   $('.shared').hide();
   $('.emailed').hide();
 
-  // Get a list of the most emailed articles within the last 30 days from the New York Times Magazine section
+  // Get a list of the most viewed articles within the last 7 days from the New York Times Magazine section
   function getMostPopularViewed() {
     var url = 'https://api.nytimes.com/svc/mostpopular/v2/mostviewed/Magazine/7.json';
     let params = {
@@ -50,7 +50,7 @@ $(document).ready(function () {
     });
   }
 
-  // Get a list of the most emailed articles within the last 30 days from the New York Times Magazine section
+  // Get a list of the most shared articles within the last 7 days from the New York Times Magazine section
   function getMostPopularShared() {
     var url = 'https://api.nytimes.com/svc/mostpopular/v2/mostshared/Magazine/7.json';
     let params = {
@@ -87,7 +87,7 @@ $(document).ready(function () {
     });
   }
 
-  // Get a list of the most emailed articles within the last 30 days from the New York Times Magazine section
+  // Get a list of the most emailed articles within the last 7 days from the New York Times Magazine section
   function getMostPopularEmailed() {
     var url = 'https://api.nytimes.com/svc/mostpopular/v2/mostemailed/Magazine/7.json';
     let params = {
@@ -113,7 +113,7 @@ $(document).ready(function () {
         console.log(image);
         
         // Display results in HTML
-        $('.emailed').append("<li><h3>" + title + 
+        $('#results-emailed').append("<li><h3>" + title + 
           "</h3>" + abstract + "<br><br>" + "<a target='blank' href='" + article_url + "'>" + 
           "<img src='" + image + "'>" + "</a></li>");
         $('#summary-emailed').append("<a target='blank' href='" + article_url + "'>" + 
